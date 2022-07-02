@@ -1,9 +1,8 @@
 body {
-  
+  display: -ms-flexbox;
   background-color: #fafafa;
   padding-left: 44px;
   font-family: proportional sans-serif typeface;
-  
 }
 .nav_bar {
   display: inline-flex;
@@ -33,11 +32,22 @@ p {
   font-size: 40px;
 }
 .displayhome {
-  
-  position: relative;
-  left: 750px;
-  bottom: 150px;
+  margin-left: 60%;
+  padding-top: -400px;
 }
-
-
-
+.accessbar {
+  text-align: center;
+  padding-left: 20px;
+}
+.products {
+  font-size: 40px;
+  color: #0f298b;
+  font-style: oblique;
+}
+.quiz {
+  text-align: center;
+}
+.how {
+  font-size: 40px;
+  color: #0f298b;
+}
