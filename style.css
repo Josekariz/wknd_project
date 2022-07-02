@@ -27,13 +27,16 @@ p {
   font-family: ;
 }
 
-.part2 {
-  display: flex inline-block;
 
-  font-size: ;
-}
 .help {
   display: flex;
   color: #2549d3;
   font-size: 40px;
+  
+  
+}
+.displayhome{ 
+    position: relative
+    
+
 }
