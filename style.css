@@ -1,6 +1,5 @@
 body {
-  display: -ms-flexbox;
-  background-color: #fafafa;
+   background-color: #fafafa52;
   padding-left: 44px;
   font-family: proportional sans-serif typeface;
 }
@@ -12,6 +11,7 @@ body {
 }
 .vallie {
   padding-right: 300px;
+  font-family:fantasy ;
 }
 p {
   padding-right: 50px;
@@ -36,8 +36,10 @@ p {
   padding-top: -400px;
 }
 .accessbar {
+  display: inline-flex;
   text-align: center;
-  padding-left: 20px;
+  margin-left: 170px;
+  
 }
 .products {
   font-size: 40px;
@@ -50,4 +52,12 @@ p {
 .how {
   font-size: 40px;
   color: #0f298b;
+}
+
+.tiles{
+  display: inline-flex;
+  
+}
+.find, .pay, .official{
+  background-color: white;
 }
