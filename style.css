@@ -1,5 +1,5 @@
 body {
-  position: ;
+  
   background-color: #fafafa;
   padding-left: 44px;
   font-family: proportional sans-serif typeface;
@@ -27,16 +27,17 @@ p {
   font-family: ;
 }
 
-
 .help {
   display: flex;
-  color: #2549d3;
+  color: #0f298b;
   font-size: 40px;
-  
-  
 }
-.displayhome{ 
-    position: relative
-    
+.displayhome {
+  
+  position: relative;
+  left: 750px;
+  bottom: 150px;
+}
 
-}
+
+
