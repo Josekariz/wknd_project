@@ -1,0 +1,25 @@
+body{
+    position: relative;
+    padding-left: 44px;
+}
+.nav_name{
+    display:inline-flex;
+    border: px solid red;
+
+}
+h2{
+    
+    padding-right: 50px;
+    
+}
+h3{
+    padding-right: 50px;
+}
+.button{
+    background-color: #2549D3;
+    border: solid red;
+    border-radius: 20px;
+    text-align: center;
+    color: aliceblue;
+    box-sizing: calc();
+}
