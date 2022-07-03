@@ -82,4 +82,29 @@ p {
   display: inline-flex;
  
 }
-
+.price{
+  display: inline-flex;
+}
+.viewmore{
+  background-color: #0f298b;
+  text-align: center;
+  border-radius: 250px;
+  
+ 
+}
+.customers{
+  text-align: center;
+  padding-top: 120px;
+}
+.review{
+  display: inline-flex;
+  
+}
+.last{
+  padding: 70px;
+  display: inline-flex;
+  background-color: #0f2786;
+  color: aliceblue;
+  margin-top: 40px;
+  border-radius: 20px;
+}
