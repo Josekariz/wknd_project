@@ -23,7 +23,7 @@ p {
   text-align: center;
   color: aliceblue;
   box-sizing: calc();
-  font-family: ;
+  
 }
 
 .help {
@@ -60,7 +60,5 @@ p {
 }
 .find, .pay, .official{
   background-color: white;
-}
-.why{
-  display: flo;
+  padding-bottom: 180px;
 }
