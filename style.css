@@ -62,3 +62,12 @@ p {
   background-color: white;
   padding-bottom: 180px;
 }
+
+.why{
+  display: inline flex;
+}
+.txtright{
+  float: inline-end;
+
+
+}
