@@ -27,13 +27,13 @@ p {
 }
 
 .help {
-  display: flex;
   color: #0f298b;
   font-size: 40px;
 }
 .displayhome {
-  margin-left: 60%;
+  margin-left: 40%;
   padding-top: -400px;
+  float: inline-end;
 }
 .accessbar {
   display: inline-flex;
@@ -51,7 +51,7 @@ p {
 }
 .how {
   font-size: 40px;
-  color: #0f298b;
+  color: #d31111;
 }
 
 .tiles{
