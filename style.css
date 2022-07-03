@@ -66,14 +66,20 @@ p {
 .why{
   display: inline-flex;
 }
-.why:first-child{
-  justify-content: flex-start;
-}
-.why:last-child{
-  display: flex-end;
+
+
   
-}
+
 .checkboxes{
+  display: grid; 
+  grid-template: 100fr 100px 100px;
   
+}
+.featured{
+  text-align: center;
+}
+.properties{
+  display: inline-flex;
+ 
 }
 
