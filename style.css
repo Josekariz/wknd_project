@@ -51,7 +51,7 @@ p {
 }
 .how {
   font-size: 40px;
-  color: #d31111;
+  color: #0f298b;
 }
 
 .tiles{
@@ -60,4 +60,7 @@ p {
 }
 .find, .pay, .official{
   background-color: white;
+}
+.why{
+  display: flo;
 }
