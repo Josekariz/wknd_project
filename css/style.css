@@ -52,6 +52,7 @@ p {
   text-align: center;
   margin-left: 170px;
   padding-top: 500px;
+  background-color: rgba(250, 235, 215, 0.089);
 }
 .products {
   font-size: 40px;
@@ -101,6 +102,7 @@ p {
   text-align: center;
   border-radius: 250px;
   padding: 9px;
+  float: right;
 }
 .customers {
   text-align: center;
