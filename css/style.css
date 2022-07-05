@@ -1,5 +1,8 @@
+* {
+  text-decoration: none;
+}
 body {
-   background-color: #fafafa52;
+  background-color: #fafafa52;
   padding-left: 44px;
   font-family: proportional sans-serif typeface;
 }
@@ -9,21 +12,24 @@ body {
   padding-bottom: 30px;
   border-bottom: solid 1px red;
 }
+
 .vallie {
   padding-right: 300px;
-  font-family:fantasy ;
+  font-family: fantasy;
 }
 p {
   padding-right: 50px;
 }
 .button {
-  background-color: #2549d3;
-  border: solid red;
-  border-radius: 20px;
-  text-align: center;
-  color: aliceblue;
-  box-sizing: calc();
+  background-color: #1d42ca; /* Green */
+  border: none;
+
   
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+  border-radius: 20%;
 }
 
 .help {
@@ -39,7 +45,6 @@ p {
   display: inline-flex;
   text-align: center;
   margin-left: 170px;
-  
 }
 .products {
   font-size: 40px;
@@ -54,56 +59,47 @@ p {
   color: #0f298b;
 }
 
-.tiles{
+.tiles {
   display: inline-flex;
   width: min-content;
-  
 }
-.find, .pay, .official{
+.find,
+.pay,
+.official {
   background-color: white;
   padding-bottom: 180px;
 }
 
-.why{
+.why {
   display: inline-flex;
 }
 
-
-  
-
-.checkboxes{
-  display: grid; 
+.checkboxes {
+  display: grid;
   grid-template: 100fr 100px 100px;
-  
 }
-.featured{
+.featured {
   text-align: center;
 }
-.properties{
-  display: inline-flex;
- 
-}
-.price{
+.properties {
   display: inline-flex;
 }
-.viewmore{
+.price {
+  display: inline-flex;
+}
+.viewmore {
   background-color: #0f298b;
   text-align: center;
   border-radius: 250px;
-  
- 
 }
-.customers{
+.customers {
   text-align: center;
   padding-top: 120px;
-
 }
-.review{
+.review {
   display: inline-flex;
-  
-  
 }
-.last{
+.last {
   padding: 70px;
   display: inline-flex;
   background-color: #0f2786;
