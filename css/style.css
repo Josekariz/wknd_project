@@ -8,9 +8,9 @@ body {
 }
 .nav_bar {
   display: inline-flex;
-  border: px solid red;
-  padding-bottom: 30px;
-  border-bottom: solid 1px red;
+  border: px solid rgba(139, 131, 131, 0.781);
+  padding-bottom: 3px;
+  border-bottom: solid 2px rgb(121, 117, 117);
 }
 
 .vallie {
@@ -40,18 +40,18 @@ p {
  display: inline-flex;
 }
 #dh{
-  float: right;
-  margin-top: -100px;
-
+margin-left: 400px;
+margin-top: -200px;
 }
 .part2{
-  margin-right: -40px;
+  
+  margin-left: 20%;
 }
 .accessbar {
   display: inline-flex;
   text-align: center;
   margin-left: 170px;
-  padding-top: 500px;
+  padding-top: 100px;
   background-color: rgba(250, 235, 215, 0.089);
 }
 .products {
@@ -80,8 +80,12 @@ p {
 }
 .why{
   display: inline-block;
+  padding-bottom: 150px;
 }
-
+#why{
+  margin-left: 700px ;
+  margin-top: -300px;
+}
 
 .checkboxes {
   display: grid;
