@@ -41,12 +41,17 @@ p {
 }
 #dh{
   float: right;
+  margin-top: -100px;
+
+}
+.part2{
+  margin-right: -40px;
 }
 .accessbar {
   display: inline-flex;
   text-align: center;
   margin-left: 170px;
-  padding-top: 50px;
+  padding-top: 500px;
 }
 .products {
   font-size: 40px;
