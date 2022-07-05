@@ -20,8 +20,8 @@ body {
 p {
   padding-right: 50px;
 }
-.button {
-  background-color: #1d42ca; /* Green */
+.learn {
+  color: aliceblue;
   border: none;
 
   
@@ -37,14 +37,16 @@ p {
   font-size: 40px;
 }
 .displayhome {
-  margin-left: 40%;
-  padding-top: -400px;
-  float: inline-end;
+ display: inline-flex;
+}
+#dh{
+  float: right;
 }
 .accessbar {
   display: inline-flex;
   text-align: center;
   margin-left: 170px;
+  padding-top: 50px;
 }
 .products {
   font-size: 40px;
@@ -62,17 +64,18 @@ p {
 .tiles {
   display: inline-flex;
   width: min-content;
+  justify-content: center;
+
 }
-.find,
-.pay,
-.official {
-  background-color: white;
-  padding-bottom: 180px;
+.find, .pay, .official{
+  background-color: rgba(240, 248, 255, 0.329);
+  padding: 100px;
+
+}
+.why{
+  display: inline-block;
 }
 
-.why {
-  display: inline-flex;
-}
 
 .checkboxes {
   display: grid;
