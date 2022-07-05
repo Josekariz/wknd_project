@@ -87,10 +87,12 @@ p {
 .price {
   display: inline-flex;
 }
-.viewmore {
-  background-color: #0f298b;
+#view{
+  color: white;
+  background-color: #274fdd;
   text-align: center;
   border-radius: 250px;
+  padding: 9px;
 }
 .customers {
   text-align: center;
