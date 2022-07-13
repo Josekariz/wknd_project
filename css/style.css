@@ -1,4 +1,5 @@
 * {
+ padding: 0;
  
   text-decoration: none;
 }
@@ -8,11 +9,15 @@ body {
   font-family: proportional sans-serif typeface;
 }
 .nav_bar {
+
   display: inline-flex;
-  border: px solid rgba(139, 131, 131, 0.781);
+  border: px solid rgba(250, 231, 231, 0.979);
   padding-bottom: 3px;
   border-bottom: solid 2px rgb(121, 117, 117);
+  width: 100%;
 }
+
+
 .getstarted{
   padding-top: 10px;
  
