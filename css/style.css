@@ -13,13 +13,17 @@ body {
   display: inline-flex;
   border: px solid rgba(250, 231, 231, 0.979);
   padding-bottom: 3px;
-  border-bottom: solid 2px rgb(121, 117, 117);
+  border-bottom: solid 8px rgba(238, 235, 235, 0.651);
   width: 100%;
 }
 
 
 .getstarted{
-  padding-top: 10px;
+  padding: 10px;
+  background-color: #274fdd;
+  border-radius: 22px;
+  color: #FAFAFA;
+
  
 }
 
@@ -27,14 +31,21 @@ body {
   padding-right: 300px;
   font-family: fantasy;
 }
-p {
+.b {
   padding-right: 50px;
+  color: #274fdd;
+  font-size: large;
+  position: relative;
+  right: 60px;
+}
+p:hover{
+text-decoration: underline 2px #0f2786;
 }
 .learn {
   color: aliceblue;
   border: none;
 
-  
+  color: #FAFAFA;
   text-align: center;
   text-decoration: none;
   
@@ -46,12 +57,21 @@ p {
   color: #0f298b;
   font-size: 40px;
 }
+#learn{
+  background-color: #274fdd;
+  padding: 20px;
+  border-radius: 20px;
+  border-collapse: collapse;
+  color: #FAFAFA;
+}
 .displayhome {
  display: inline-flex;
 }
 #dh{
-margin-left: 400px;
-margin-top: -200px;
+margin-left: 150px;
+margin-top: -300px;
+position: relative;
+left: 500px;
 }
 .part2{
   
@@ -59,10 +79,24 @@ margin-top: -200px;
 }
 .accessbar {
   display: inline-flex;
-  text-align: center;
+ 
   margin-left: 170px;
   padding-top: 100px;
   background-color: rgba(250, 235, 215, 0.089);
+  box-shadow: 1px 0px 1px;
+  border-radius: 13px;
+  width: 70%;
+  justify-content: center;
+  height: 100px;
+  align-content: center;
+  margin-top: 40px;
+}
+.accessbar > p{
+  color: #274fdd;
+  font-size: xx-large;
+}
+accessbar > p >.search{
+  background-color: #274fdd;
 }
 .products {
   font-size: 40px;
@@ -78,14 +112,18 @@ margin-top: -200px;
 }
 
 .tiles {
-  display: inline-flex;
-  width: min-content;
-  justify-content: center;
+  display:inline-flex;
+  flex-direction: row;
+  box-shadow: 2px 0px 1px;
+  
+  justify-content: space-around;
 
 }
 .find, .pay, .official{
   background-color: rgba(240, 248, 255, 0.329);
-  padding: 100px;
+  padding: 70px;
+  box-shadow: 1px 0 1px grey;
+
 
 }
 .why{
@@ -106,6 +144,11 @@ margin-top: -200px;
 }
 .properties {
   display: inline-flex;
+  box-shadow: 2px 0px 1px grey;
+}
+
+.properties > .img1:hover{
+  box-shadow: 2px 1px 0px 3px grey;
 }
 .price {
   display: inline-flex;
@@ -124,6 +167,10 @@ margin-top: -200px;
 }
 .review {
   display: inline-flex;
+  box-shadow: 2px 1px 1px 2px grey;
+}
+.review > .alex  :hover{
+  box-shadow: 2px 1px 2px grey;
 }
 .last {
   padding: 70px;
@@ -132,4 +179,6 @@ margin-top: -200px;
   color: aliceblue;
   margin-top: 40px;
   border-radius: 20px;
+}
+.vallie:hover > h2{  text-decoration: underline 2px white;
 }
