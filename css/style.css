@@ -1,6 +1,6 @@
 * {
- padding: 0;
- 
+  padding: 0;
+
   text-decoration: none;
 }
 body {
@@ -9,7 +9,6 @@ body {
   font-family: proportional sans-serif typeface;
 }
 .nav_bar {
-
   display: inline-flex;
   border: px solid rgba(250, 231, 231, 0.979);
   padding-bottom: 3px;
@@ -17,14 +16,15 @@ body {
   width: 100%;
 }
 
-
-.getstarted{
-  padding: 10px;
+.getstarted {
+  padding: 5px;
   background-color: #274fdd;
   border-radius: 22px;
-  color: #FAFAFA;
-
- 
+  color: #fafafa;
+}
+.getstarted >a> h2{
+  color: #fafafa;
+  font-weight: bold;
 }
 
 .vallie {
@@ -38,17 +38,17 @@ body {
   position: relative;
   right: 60px;
 }
-p:hover{
-text-decoration: underline 2px #0f2786;
-}
+.b:hover{
+  text-decoration: underline solid #274fdd;
+} 
 .learn {
   color: aliceblue;
   border: none;
 
-  color: #FAFAFA;
+  color: #fafafa;
   text-align: center;
   text-decoration: none;
-  
+
   font-size: 16px;
   border-radius: 20%;
 }
@@ -57,29 +57,39 @@ text-decoration: underline 2px #0f2786;
   color: #0f298b;
   font-size: 40px;
 }
-#learn{
+
+#learn {
   background-color: #274fdd;
-  padding: 20px;
+  padding: 15px;
   border-radius: 20px;
-  border-collapse: collapse;
-  color: #FAFAFA;
+
+  color: #fafafa;
+}
+#play {
+  background-color: #274fdd;
+  color: #fafafa;
+  border-radius: 10px;
+  padding: 10px;
+}
+#learn > a > h2 {
+  color: #fafafa;
+  font-weight: bold;
 }
 .displayhome {
- display: inline-flex;
+  display: inline-flex;
 }
-#dh{
-margin-left: 150px;
-margin-top: -300px;
-position: relative;
-left: 500px;
+#dh {
+  margin-left: 150px;
+  margin-top: -300px;
+  position: relative;
+  left: 500px;
 }
-.part2{
-  
+.part2 {
   margin-left: 20%;
 }
 .accessbar {
   display: inline-flex;
- 
+
   margin-left: 170px;
   padding-top: 100px;
   background-color: rgba(250, 235, 215, 0.089);
@@ -91,11 +101,12 @@ left: 500px;
   align-content: center;
   margin-top: 40px;
 }
-.accessbar > p{
+.accessbar > p {
   color: #274fdd;
   font-size: xx-large;
+  padding: 10px;
 }
-accessbar > p >.search{
+accessbar > p > .search {
   background-color: #274fdd;
 }
 .products {
@@ -112,26 +123,27 @@ accessbar > p >.search{
 }
 
 .tiles {
-  display:inline-flex;
+  display: inline-flex;
   flex-direction: row;
-  box-shadow: 2px 0px 1px;
-  
-  justify-content: space-around;
+  /*box-shadow: 1px 0px 1px;*/
 
+  justify-content: space-around;
 }
-.find, .pay, .official{
+.find,
+.pay,
+.official {
   background-color: rgba(240, 248, 255, 0.329);
   padding: 70px;
-  box-shadow: 1px 0 1px grey;
-
-
+  box-shadow: 0px 0 1px 0px grey;
 }
-.why{
+
+
+.why {
   display: inline-block;
   padding-bottom: 150px;
 }
-#why{
-  margin-left: 700px ;
+#why {
+  margin-left: 700px;
   margin-top: -300px;
 }
 
@@ -147,13 +159,13 @@ accessbar > p >.search{
   box-shadow: 2px 0px 1px grey;
 }
 
-.properties > .img1:hover{
+.properties > .img1:hover {
   box-shadow: 2px 1px 0px 3px grey;
 }
 .price {
   display: inline-flex;
 }
-#view{
+#view {
   color: white;
   background-color: #274fdd;
   text-align: center;
@@ -169,8 +181,11 @@ accessbar > p >.search{
   display: inline-flex;
   box-shadow: 2px 1px 1px 2px grey;
 }
-.review > .alex  :hover{
+.review > .alex :hover {
   box-shadow: 2px 1px 2px grey;
+}
+.alex{
+  border-left: 1px solid grey;
 }
 .last {
   padding: 70px;
@@ -179,6 +194,15 @@ accessbar > p >.search{
   color: aliceblue;
   margin-top: 40px;
   border-radius: 20px;
+  width: 100%;
 }
-.vallie:hover > h2{  text-decoration: underline 2px white;
+.last >.ll > h2:hover{
+  text-decoration: underline solid #fafafa;
+
+}
+.ll{
+  box-sizing: content-box;
+  position: relative;
+  left: 200px;
+  justify-content: space-around;
 }
